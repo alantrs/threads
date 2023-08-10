@@ -1,3 +1,4 @@
+package aula1;
 
 public class TestandoThreads implements Runnable {
 
