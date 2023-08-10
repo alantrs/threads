@@ -1,7 +1,5 @@
 package aula2;
 
-import aula1.TestandoThreads;
-
 public class Main {
 
     public static void main(String[] args) {

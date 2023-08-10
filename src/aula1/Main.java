@@ -4,11 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        TestandoThreads thread1 = new TestandoThreads("thread #1", 1000);
+        MinhaThread thread1 = new MinhaThread("thread #1", 1000);
 
-        TestandoThreads thread2 = new TestandoThreads("thread #2", 500);
+        MinhaThread thread2 = new MinhaThread("thread #2", 500);
 
-        TestandoThreads thread3 = new TestandoThreads("thread #3", 100);
+        MinhaThread thread3 = new MinhaThread("thread #3", 100);
 
     }
 }

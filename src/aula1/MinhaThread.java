@@ -1,11 +1,11 @@
 package aula1;
 
-public class TestandoThreads implements Runnable {
+public class MinhaThread implements Runnable {
 
     private String nome;
     private Integer tempo;
 
-    public TestandoThreads(String nome, Integer tempo){
+    public MinhaThread(String nome, Integer tempo){
         this.nome = nome;
         this.tempo = tempo;
         Thread t = new Thread(this);
